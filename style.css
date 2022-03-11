@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.header {
+display: flex;
+justify-content: center;
+background-color: blue;
+height: 45px;
+color: red;
+font-size: 2.2em;
+}
+
+.image-grid-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+    
+}
+.image-grid_item {
+    width: 200px;
+    height: 200px;
+    
+
+}
